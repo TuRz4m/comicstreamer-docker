@@ -1,10 +1,11 @@
 # Comicstreamer - Docker
 
 Docker build for Comicstreamer ([davide-romanini version](https://github.com/davide-romanini/ComicStreamer))
+Retrieve the last version on github and launch comicstreamer.
 
 ## Usage
 
-`docker run -p 32500:32500 -v /my/comics/directory:/comics TuRzAm/comicstreamer`
+`docker run -d -p 32500:32500 -v /my/comics/directory:/comics turzam/comicstreamer`
 
 ## Variables
 + __WEBROOT__
